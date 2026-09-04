@@ -7,4 +7,4 @@ echo "Configuring Mirrorlist..."
 echo "Setting to $SERV_URL ..."
 echo "Server = $SERV_URL/\$repo/os/\$arch" >> /tmp/pacman.d.mirrorlist
 echo "Configured Mirrorlist sending to /etc/pacman.d/"
-mv -i /tmp/pacman.d.mirrorlist /etc/pacman.d/mirrorlist
+mv /tmp/pacman.d.mirrorlist /etc/pacman.d/mirrorlist
